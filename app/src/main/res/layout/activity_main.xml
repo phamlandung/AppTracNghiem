@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEEE7"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="a@gmail.com"
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:text="TỔNG HỢP CÂU HỎI TRẮC NGHIỆM CÁC MÔN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Spinner
+        android:id="@+id/spinner_category"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:id="@+id/textview_high_score"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:text="Điểm cao : 100"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:id="@+id/button_start_question"
+        android:textColor="@color/black"
+        android:backgroundTint="#66CDAA"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Bắt đầu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/btnDangxuat"
+        android:textColor="@color/black"
+        android:backgroundTint="#66CDAA"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Đăng xuất"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
