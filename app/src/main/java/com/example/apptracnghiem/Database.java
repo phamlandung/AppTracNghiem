@@ -101,6 +101,7 @@ public class Database extends SQLiteOpenHelper {
         values.put(Table.QuestionsTable.COLUMN_CATEGORY_ID,question.getCategoryID());
 
         db.insert(Table.QuestionsTable.TABLE_NAME, null,values);
+
     }
 
     private void CreateQuestions(){
